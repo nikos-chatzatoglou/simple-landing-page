@@ -1,46 +1,31 @@
-# Getting Started with Create React App
+### Game Over Portal Interview Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Instructions : 
 
-## Available Scripts
+> Note :
+ >> Recreate this Page
+    
+[Preview ](./src/assets/Preview%20of%20the%20site/site_you_need_to_do.png)
+[Transition 1](./src/assets/Preview%20of%20the%20site/opening.png)
+[Transition 2](./src/assets/Preview%20of%20the%20site/redirection_site.png)
 
-In the project directory, you can run:
+ - Complete the provided exercise using a React based frame work and any other Libraries that may arise. 
+ - Project Must be submitted no later than 6/17/2022 Friday . And forwarded to software@escapegameover.com
+ - All assets , pre requisites have been provided under the assets folder
 
-### `npm start`
+> Have in mind the following things:
+- Pay equal attention, both to the code quality and to the look-and-feel of the deliverable. The result should be pixel-perfectly aligned with the provided design.
+- You are more than welcome to add animations and micro-interactions wherever you think they fit. They will be highly appreciated.
+Make sure that the deliverable behaves properly at all viewport sizes.
+- If you don’t have time, prefer to deliver a smaller part of the project from delivering a subpar result. On the contrary, if you have extra time, consider adding some interactive functionality such as opening the top-left “user dropdown” or anything that you might think of.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Regarding the code provided:
+- The project already includes the font, the svg icons and the images that you will need. Check src/assets/ directory.
+- Adding types and/or interfaces to your components is not required but it will be highly appreciated.
+- Feel free to change the file structure if you want, but it will be nice if you aligned your code to the provided structure.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+You can deliver the code back either through a .zip or through a private repo (you will need to give us access though).
 
-### `npm test`
+Don’t hesitate to reach out with an email at software@escapegameover.com any time for additional instructions or clarifications.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Happy coding! :-)
