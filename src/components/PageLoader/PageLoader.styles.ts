@@ -5,11 +5,11 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-color: black;
 `;
 
 export const Loader = styled.img`
-width: 150;
-height: 150px;
+    width: 150px;
+    height: 150px;
 `;

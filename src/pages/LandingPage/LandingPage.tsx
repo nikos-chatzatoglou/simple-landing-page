@@ -1,10 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import {
 	Button,
-	Container,
+	Wrapper,
 	Logo,
-	ImgContainer,
-	InnerWrapper,
+	Content,
 	Subtitle,
 	TextWrapper,
 	Title,
@@ -18,19 +17,17 @@ const LandingPage = () => {
 	};
 
 	return (
-		<Container>
+		<Wrapper>
 			<Logo src={"logo.png"} alt='Logo'></Logo>
-			<ImgContainer>
-				<InnerWrapper>
-					<TextWrapper>
-						<Title>Choose location</Title>
-						<Subtitle>book now. get locked. escape. repeat</Subtitle>
-					</TextWrapper>
-					<Chevron />
-					<Button onClick={navigateToPage}>TAMPA</Button>
-				</InnerWrapper>
-			</ImgContainer>
-		</Container>
+			<Content>
+				<TextWrapper>
+					<Title>Choose location</Title>
+					<Subtitle>book now. get locked. escape. repeat.</Subtitle>
+				</TextWrapper>
+				<Chevron />
+				<Button onClick={navigateToPage}>TAMPA</Button>
+			</Content>
+		</Wrapper>
 	);
 };
 

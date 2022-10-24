@@ -2,16 +2,16 @@ import { useEffect } from "react";
 import PageLoader from "../../components/PageLoader/PageLoader";
 
 const Rediraction = () => {
-	let isTimerOn = true;
+	let isTimerOff = true;
 
 	useEffect(() => {
 		setTimeout(() => {
 			window.location.replace("https://tampa.escapegameover.us/");
-			isTimerOn = false;
+			isTimerOff = false;
 		}, 3000);
 	}, []);
 
-	return <>{isTimerOn && <PageLoader />}</>;
+	return <>{isTimerOff && <PageLoader />}</>;
 };
 
 export default Rediraction;
